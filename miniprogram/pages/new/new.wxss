@@ -1,0 +1,106 @@
+textarea {
+  width: 700rpx;
+  padding: 25rpx 0;
+}
+
+.textarea-wrp {
+  padding: 0 25rpx;
+  background-color: #fff;
+}
+
+.page-section {
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.page-section:last-child {
+  margin-bottom: 0;
+}
+
+.page-section-title {
+  font-size: 28rpx;
+  color: #999;
+  margin-bottom: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.txt {
+  border: solid;
+}
+
+.event {
+  margin-block-start: 65px;
+  color:rgba(2, 36, 138, 0.938);
+  font-size: 40rpx;
+  font-weight: 600;
+
+}
+
+.flex {
+  display: flex;
+}
+.down1{
+  margin-block-start: 70px;
+  color:rgb(6, 138, 2);
+  font-size: 40rpx;
+  font-weight: 600;
+
+}
+.icon1 {
+  margin-top: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon2 {
+  width: 60px;
+  height: 60px;
+}
+
+.star {
+  display: flex;
+  margin-top: 10px;
+}
+
+.down {
+  margin-block-start: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.head {
+  margin-right: 1px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.date {
+  text-align: left;
+}
+
+.beautify {
+  width: 60%;
+  height: 80rpx;
+
+  border-radius: 47rpx;
+  color: rgba(132, 26, 194, 0.603);
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40rpx; /*此组件下方增加80rpx的间隔*/
+  margin-top: 230rpx;
+}
+.input{
+
+  width: 100%;
+  height: 80rpx;
+  border-radius: 47rpx;
+  background-color: #0b96b938;
+
+}
+
+page {
+  background-image: url(https://wx1.sinaimg.cn/mw690/007WtLYdly1ga24ks3fmuj30aj0p4taq.jpg)
+}

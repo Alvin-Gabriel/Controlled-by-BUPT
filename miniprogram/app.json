@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/weather/weather",
+    "pages/timetable/timetable",
+    "pages/deadline/deadline",
+    "pages/new/new",
+    "pages/index/index"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "邮我掌控智能生活管家",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#000",
+    "backgroundColor": "#B0C4DE",
+    "selectedColor": "#7B68EE",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home1.jpg",
+        "text": "首页",
+        "selectedIconPath": "images/home.jpg"
+      },
+      {
+        "pagePath": "pages/deadline/deadline",
+        "iconPath": "images/daily.jpg",
+        "text": "ddl",
+        "selectedIconPath": "images/daily1.jpg"
+      },
+      {
+        "pagePath": "pages/timetable/timetable",
+        "iconPath": "images/order2.jpg",
+        "text": "时间表",
+        "selectedIconPath": "images/order.jpg"
+      }
+    ]
+  }
+}

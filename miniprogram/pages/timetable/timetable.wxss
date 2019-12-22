@@ -1,0 +1,101 @@
+/**index.wxss**/
+
+.header {
+  text-align: center;
+  font-size: 40rpx;
+  color: #297975;
+  margin-bottom: 40rpx;
+  width: 100%;
+  position: relative;
+  height: 70rpx;
+}
+
+.userinfo-nickname {
+  color: black;
+}
+
+.btnsave {
+  border: solid 2rpx;
+  width: 80%;
+  margin-top: 40rpx;
+  background-color: rgb(174, 16, 236, 0.333);
+  color: rgba(20, 20, 161, 0.726);
+  border-radius: 98rpx;
+  display: flex;
+  font-size: 70;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  margin-inline-start: 30px
+}
+
+.input {
+  border: solid 2rpx rgba(180, 156, 91, 0.623);
+  width: 100%;
+  height: 80rpx;
+  border-radius: 20rpx;
+  background-color: #6f959e38;
+}
+
+.btn {
+  width: 80%;
+  margin-top: 40rpx;
+  background-color: rgba(184, 211, 169, 0.397);
+  color: rgba(67, 67, 145, 0.507);
+  border-radius: 98rpx;
+  display: flex;
+  font-size: 70;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
+.bin {
+  width: 56%;
+  margin-top: 40rpx;
+  background-color: rgba(34, 216, 192, 0.451);
+  color: rgba(216, 44, 73, 0.863);
+  border-radius: 88rpx;
+  display: flex;
+  font-size: 40rpx;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
+.word4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(250, 36, 120, 0.959);
+  font-weight: 636;
+}
+
+.button {
+  border-radius: 98rpx;
+  background-color: rgba(147, 213, 233, 0.822);
+  font-size: 70;
+  color: rgba(146, 29, 175, 0.801);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 {
+  border-radius: 98rpx;
+  background-color: rgba(42, 84, 161, 0.877);
+  font-size: 70;
+  color: rgba(245, 248, 50, 0.801);
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
+page {
+  background-image: url(https://wx4.sinaimg.cn/mw690/007WtLYdly1ga24mbo3p1j30jg0t877a.jpg);
+}

@@ -1,0 +1,16 @@
+
+<view style='width:750rpx; background:rgba(0,0,0,0.25); opacity:0.8; margin-top:100rpx'>
+
+<text  class="beautify">{{weatherData}} </text>
+
+</view>
+<view><text>\n\n</text>
+<button class="contr" bindtap="swap" >进入智能生活管家</button>
+</view>
+<view style='width:750rpx; background:rgba(0,0,0,0.25); margin-bottom:1rpx'>
+
+<view class="marl" wx:for="{{src}}">
+<view class="mtop">{{item.title}}</view>
+<text class="mleft">{{item.text}}</text>
+</view>
+</view>

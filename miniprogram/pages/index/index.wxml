@@ -1,0 +1,21 @@
+
+
+
+<view class="word">设定窗帘拉开的时间</view>
+
+<picker mode="time" bindchange="setclock">
+<image src="../../images/sleep.jpg" class="con bubble " bindtap="setclock "></image>
+<view class="time">{{time}}</view>
+</picker>
+<button type="primary" bindtap="confirmclock" plain="false"class="beautify">确定</button>
+
+<view class="word">窗户开关</view>
+<view wx:if="{{windowSwitch>0}}">
+<image src="../../images/open.jpg"  class="con bubble" bindtap="window"></image>
+</view>
+<view wx:if="{{windowSwitch<0}}">
+<image src="../../images/close.jpg"  class="con bubble"bindtap="window"></image>
+</view>
+
+<view class="word">自动化运维/中断定时</view>
+<image src="../../images/auto.jpg" class="con bubble" bindtap="auto"></image>

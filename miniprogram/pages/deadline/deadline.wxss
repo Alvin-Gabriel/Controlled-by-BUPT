@@ -1,0 +1,118 @@
+.table {
+  border: 0px solid #36f;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+
+.td {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-w {
+  background: snow;
+}
+
+.bg-g {
+  background: #e6f3f9;
+}
+
+.th {
+  width: 40%;
+  justify-content: center;
+  background: rgb(7, 51, 180);
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+button::after {
+  border: none;
+}
+.word1{
+display:flex; justify-content:center; align-items:center;
+font-size: 25px;
+color: rgb(27, 126, 255)
+}
+.word2{
+display:flex; justify-content:center; align-items:center;
+font-size: 15px;
+color: rgba(223, 243, 39, 0.795)
+}
+
+.word3{
+display:flex; justify-content:center; align-items:center;
+font-size: 55px;
+color: rgb(160, 0, 0)
+}
+.word4{
+display:flex; justify-content:center; align-items:center;
+color: black;
+}
+
+.ss {
+  display: flex;
+}
+.down{
+
+
+  margin-block-end: 0.1rpx;
+}
+.zuo {
+  margin-left: 250px;
+  width: 88rpx;
+  height: 85rpx;
+
+}
+
+.shang {
+  margin-top: 5px;
+}
+
+.con {
+  margin-left: 18px;
+  width: 88rpx;
+  height: 85rpx;
+}
+.beautify{ 
+width: 60%; 
+height: 80rpx; 
+background-color: #5f016834;
+border-radius: 47rpx;
+color: rgb(26, 183, 194);
+font-size: 40rpx;  
+display:flex; justify-content:center; align-items:center;
+}
+.con1 {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+  font-size: 30rpx;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 10 2rpx 50;
+}
+
+.word {
+  font-size: 38rpx;
+  font-weight: 550;
+  color: #800000;
+}
+
+.juli {
+  margin-bottom: 80rpx;
+}
+
+page {
+  background-image: url(https://wx2.sinaimg.cn/mw690/007WtLYdly1ga247r7mhyj30ca0jpjtz.jpg);
+}

@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    欢迎使用
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <view class="header">快去制定自己的计划吧！</view>
+  </view>
+
+
+  <view class="section">
+    <input value="{{event1}}" bindinput='input' confirm-type="done" focus="{{focus}}" class="input" />
+
+  </view>
+  <picker class="bin" mode='time' bindchange='timechange'>
+    <view>{{time}}</view>
+  </picker>
+  <view>
+    <button class="btnsave" bindtap="save">保存</button>
+  </view>
+</view>
+<view>
+<view wx:for="{{event}}" class="flex">
+<view>
+<view class="word4">日程：{{item.event}}</view>
+<view class="word4">时间：{{item.Time}}</view>
+</view>
+
+<button class="button" bindtap="ButtonTap" data-id="{{item.id}}" >删除</button>
+</view>
+</view>
+<button class="button1" bindtap="what">刷新</button>

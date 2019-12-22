@@ -1,0 +1,47 @@
+<button bindtap="past" class="beautify" disabled="{{disabled2}}">{{past}}</button>
+<button bindtap="future" class="beautify" disabled="{{disabled1}}">{{future}}</button>
+
+
+<view class="ss">
+  <image bindtap="navy" src="../../images/add.jpg" class="con"></image>
+  <image bindtap="what" src="../../images/reloading.jpg" class="zuo"></image>
+</view>
+
+<view>
+  <view class="word1">距离</view>
+  <view class="word2">{{content[0].event}}</view>
+  <view class="word4"><text>还有</text><text class="word3">  {{content[0].dt}}</text>
+<text>{{content[0].tian}}</text></view>
+</view>
+
+
+
+
+<view class="shang" wx:if="{{pf>0}}">
+  <view ext-class="word"  style="background:rgba(225,225,225,0.5); opacity:0.8;margin-top:10rpx" wx:for="{{content}}" wx:for-item="i">
+    <view ext-class="word"style="background:rgba(225,225,225,0.5); opacity:0.8;margin-top:10rpx" class="weui-cells" bindtouchend="touchend" data-id="{{i.id}}">
+      <mp-slideview buttons="{{slideButtons}}" ext-class="word" class="word" bindbuttontap="slideButtonTap">
+
+        <mp-cell value="{{i.event}}" ext-class="word" class="word" footer="{{i.when}}{{i.dt}}{{i.tian}}"></mp-cell>
+        <view>
+          <image src="../../images/star1.jpg" class="down1"style="width:25px;height:25px;" wx:if="{{i.star}}"></image>
+          {{i.date}}
+        </view>
+      </mp-slideview>
+    </view>
+  </view>
+</view>
+<view class="shang" wx:if="{{pf==0}}">
+  <view ext-class="word" class="word" style="background:rgba(225,225,225,0.5); opacity:0.8;margin-top:10rpx" wx:for="{{pcontent}}" wx:for-item="i">
+    <view ext-class="word" class="word" style="background:rgba(225,225,225,0.5); opacity:0.8;margin-top:10rpx" class="weui-cells" bindtouchend="touchend" data-id="{{i.id}}">
+      <mp-slideview buttons="{{slideButtons}}" ext-class="word" class="word" bindbuttontap="slideButtonTap">
+
+        <mp-cell value="{{i.event}}" ext-class="word" class="word" footer="{{i.when}}{{i.dt}}{{i.tian}}"></mp-cell>
+        <view>
+          <image src="../../images/精彩时刻，星星，五角星.png" style="width:25px;height:25px;" wx:if="{{i.star}}"></image>
+          {{i.date}}
+        </view>
+      </mp-slideview>
+    </view>
+  </view>
+</view>

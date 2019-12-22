@@ -1,0 +1,19 @@
+<picker mode="date" bindchange="print">
+  <view bindtap="print" class="flex">
+    <image src="../../images/event1.jpg" class="icon1"></image>
+    <view class="down1">日期:{{date}}</view>
+    <view class="date"></view>
+  </view>
+</picker>
+<view class="star">
+  <image src="../../images/star.jpg" class="icon2"></image>
+  <switch checked="{{switch1}}" bindchange="switchchange" class="down"></switch>
+</view>
+<view class="flex" bindtap="tapButton">
+  <image src="../../images/event.jpg" class="icon1" ></image>
+  <text class="event">事件:{{event1}}</text>
+</view>
+<mp-dialog title="请填写事件" show="{{showDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+  <input class="input" bindinput="input"></input>
+</mp-dialog>
+<button bindtap="confirm" class="beautify">确定</button>
